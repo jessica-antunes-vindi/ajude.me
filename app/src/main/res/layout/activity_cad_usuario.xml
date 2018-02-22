@@ -7,28 +7,46 @@
     >
 
     <LinearLayout
-        android:id="@+id/loginForm"
+        android:id="@+id/cadUsuarioForm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imgLogomarca"
+            android:id="@+id/imgLogo"
             android:layout_width="wrap_content"
-            android:layout_height="120dp"
+            android:layout_height="80dp"
             android:layout_centerHorizontal="true"
             android:layout_margin="16dp"
             android:src="@drawable/logomarca" />
 
-       <EditText
-           android:id="@+id/edtEmail"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:layout_margin="16dp"
-           android:inputType="text"
-           android:textColorHighlight="@color/colorVividCyan"
-           android:hint="Email"/>
+        <EditText
+            android:id="@+id/edtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:inputType="textCapSentences"
+            android:textColorHighlight="@color/colorVividCyan"
+            android:hint="Nome"/>
+
+        <EditText
+            android:id="@+id/edtTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:inputType="text"
+            android:textColorHighlight="@color/colorVividCyan"
+            android:hint="Telefone"/>
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:inputType="text"
+            android:textColorHighlight="@color/colorVividCyan"
+            android:hint="Email"/>
 
         <EditText
             android:id="@+id/edtSenha"
@@ -40,20 +58,12 @@
             android:hint="Senha"/>
 
         <com.gc.materialdesign.views.ButtonRectangle
-            android:id="@+id/btnLogin"
+            android:id="@+id/btnCadastrar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/colorVividCyan"
-            android:onClick="ClickLogin"
-            android:text="Login" />
-
-        <TextView
-            android:id="@+id/lblCadastrese"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:onClick="ClickCadastro"
-            android:textColor="@color/colorVividCyan"
-            android:text= "Cadastre-se" />
+            android:onClick="ClickCadastrar"
+            android:text="Cadastrar" />
 
     </LinearLayout>
 
