@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightGrayishCyan"
+    >
+
+    <LinearLayout
+        android:id="@+id/mostra_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="16dp"
+            android:src="@drawable/logomarca" />
+
+       <EditText
+           android:id="@+id/edtEmail"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="16dp"
+           android:inputType="text"
+           android:textColorHighlight="@color/colorVividCyan"
+           android:hint="Email"/>
+
+        <EditText
+            android:id="@+id/edtSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:inputType="text"
+            android:textColor="@color/colorVividCyan"
+            android:hint="Senha"/>
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorVividCyan"
+            android:text="Login" />
+
+        <TextView
+            android:id="@+id/lblCadastrese"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Cadastre-se" />
+
+    </LinearLayout>
+
+</RelativeLayout>

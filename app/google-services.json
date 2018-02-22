@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "655558054276",
+    "firebase_url": "https://ajude-me-monitora-summer-2018.firebaseio.com",
+    "project_id": "ajude-me-monitora-summer-2018",
+    "storage_bucket": "ajude-me-monitora-summer-2018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655558054276:android:0933153787cfa9cb",
+        "android_client_info": {
+          "package_name": "summer.ajudeme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655558054276-3nck7svsd96hpt543avr318cbva47j74.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "summer.ajudeme",
+            "certificate_hash": "657191404b60382b136897b287ec7131aab70b7c"
+          }
+        },
+        {
+          "client_id": "655558054276-03kpkj5ld1c9nevd95v1t7si0fcrbfhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTGLcKBKtj4-RIIZtP9nz6dzSFZUeiNQk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655558054276-03kpkj5ld1c9nevd95v1t7si0fcrbfhe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
