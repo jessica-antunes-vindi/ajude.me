@@ -28,16 +28,19 @@
             android:layout_margin="16dp"
             android:inputType="textCapSentences"
             android:textColorHighlight="@color/colorVividCyan"
-            android:hint="Nome"/>
+            android:hint="Nome"
+            android:theme="@style/MyEditTextTheme"/>
 
         <EditText
+
             android:id="@+id/edtTelefone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:inputType="text"
             android:textColorHighlight="@color/colorVividCyan"
-            android:hint="Telefone"/>
+            android:hint="Telefone"
+            android:theme="@style/MyEditTextTheme"/>
 
         <EditText
             android:id="@+id/edtEmail"
@@ -46,7 +49,8 @@
             android:layout_margin="16dp"
             android:inputType="text"
             android:textColorHighlight="@color/colorVividCyan"
-            android:hint="Email"/>
+            android:hint="Email"
+            android:theme="@style/MyEditTextTheme"/>
 
         <EditText
             android:id="@+id/edtSenha"
@@ -55,7 +59,8 @@
             android:layout_margin="16dp"
             android:inputType="textPassword"
             android:textColor="@color/colorVividCyan"
-            android:hint="Senha"/>
+            android:hint="Senha"
+            android:theme="@style/MyEditTextTheme"/>
 
         <com.gc.materialdesign.views.ButtonRectangle
             android:id="@+id/btnCadastrar"

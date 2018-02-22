@@ -34,6 +34,9 @@ public class CadUsuarioActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cad_usuario);
 
+        final EditText campo_telefone = (EditText) findViewById(R.id.edtTelefone);
+        campo_telefone.addTextChangedListener(Mask.insert("(##)#####-####", campo_telefone));
+
         //Inicia o Autenticador
         mAuth = FirebaseAuth.getInstance();
         mDatabase = FirebaseDatabase.getInstance().getReference();
