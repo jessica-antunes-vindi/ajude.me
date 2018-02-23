@@ -76,6 +76,8 @@ public class LoginActivity extends AppCompatActivity {
             focusView.requestFocus();
         } else {
             //Todo login google para pegar foto
+            Toast.makeText(LoginActivity.this, "Validando...",
+                    Toast.LENGTH_SHORT).show();
             mAuth.signInWithEmailAndPassword(email, senha)
                     .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                         public static final String TAG = "";
@@ -87,9 +89,6 @@ public class LoginActivity extends AppCompatActivity {
                                 Log.d(TAG, "signInWithEmail:success");
                                 FirebaseUser user = mAuth.getCurrentUser();
                                 //Todo Mudar mensagen
-                                //Mudar mensagem
-                                Toast.makeText(LoginActivity.this, "Autenticação funcionou!!",
-                                        Toast.LENGTH_SHORT).show();
                                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                                 startActivity(intent);
                             } else {

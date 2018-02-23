@@ -18,7 +18,7 @@
             android:id="@+id/profile_image"
             android:layout_width="96dp"
             android:layout_height="96dp"
-            android:src="@drawable/jessica"
+            android:src="@drawable/ic_person"
             app:civ_border_width="3dp"
             app:civ_border_color="@color/colorDarkCyan"
             android:layout_margin="16dp"/>
@@ -30,8 +30,7 @@
             android:onClick="ClickCadastro"
             android:textSize="25dp"
             android:textColor="@color/colorVividCyan"
-            android:text= "Jéssica Antunes"
-            android:layout_margin="16dp"/>
+            android:text= "Jéssica Antunes" />
 
 
         <com.gc.materialdesign.views.ButtonRectangle
@@ -40,33 +39,12 @@
             android:layout_height="wrap_content"
             android:background="@color/colorVividCyan"
             android:onClick="ClickAlerta"
-            android:text="Alerta" />
+            android:text="Enviar Alerta" />
 
-        <TextView
-            android:id="@+id/lblOcorrencia"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:onClick="ClickCadastro"
-            android:textSize="15dp"
-            android:textColor="@color/colorVividRed"
-            android:text= "Ultimas ocorrencias"
-            android:layout_margin="16dp"/>
-
-        <com.gc.materialdesign.views.ButtonRectangle
-            android:id="@+id/btnUm"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/colorVividRed"
-            android:text="Welliton" />
-
-        <com.gc.materialdesign.views.ButtonRectangle
-            android:id="@+id/btnDois"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/colorVividCyan"
-            android:text="Thon" />
-
-
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/personas" />
 
     </LinearLayout>
 

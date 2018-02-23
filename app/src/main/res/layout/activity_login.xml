@@ -62,7 +62,8 @@
             android:layout_width="wrap_content"
             android:layout_height="58dp"
             android:onClick="LoginGoogle"
-            android:text="Entrar com Google" />
+            android:text="Entrar com Google"
+            android:visibility="gone"/>
 
 
     </LinearLayout>

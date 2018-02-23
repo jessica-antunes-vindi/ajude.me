@@ -27,11 +27,14 @@ public class AlertaActivity extends AppCompatActivity {
     }
 
     public void ClickLigar(View v){
+        r.stop();
         startActivity(new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "16996096541", null)));
     }
 
     public void ClickOK(View v){
         r.stop();
+        Intent intent = new Intent(AlertaActivity.this, ChatActivity.class);
+        startActivity(intent);
     }
 
 

@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="summer.ajudeme">
 
-    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:allowBackup="true"
@@ -24,7 +24,12 @@
             android:name=".CadUsuarioActivity"
             android:label="Cadastro de Usuário" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".AlertaActivity"></activity>
+        <activity
+            android:name=".AlertaActivity"
+            android:label="ALERTA"></activity>
+        <activity android:name=".ChatActivity"
+            android:label="Guadiões da Jéssica">
+        </activity>
     </application>
 
 </manifest>
