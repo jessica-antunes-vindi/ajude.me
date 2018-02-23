@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "655558054276-2e0nkchgg31agr986t9tfh30um0theba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "summer.ajudeme",
+            "certificate_hash": "c737c65a8c8b62f9ccd46b2ce073b7d8715eebf2"
+          }
+        },
+        {
           "client_id": "655558054276-3nck7svsd96hpt543avr318cbva47j74.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

@@ -42,6 +42,13 @@
             android:hint="Senha"
             android:theme="@style/MyEditTextTheme" />
 
+    <LinearLayout
+        android:id="@+id/botaof"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
         <com.gc.materialdesign.views.ButtonRectangle
             android:id="@+id/btnLogin"
             android:layout_width="wrap_content"
@@ -50,6 +57,15 @@
             android:onClick="ClickLogin"
             android:text="Login" />
 
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:onClick="LoginGoogle"
+            android:text="Entrar com Google" />
+
+
+    </LinearLayout>
         <TextView
             android:id="@+id/lblCadastrese"
             android:layout_width="wrap_content"
