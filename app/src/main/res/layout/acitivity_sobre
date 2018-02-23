@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorLightGrayishCyan"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+# SOBRE O APP
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:textColor="@color/colorDarkCyan"
+        android:text= "Sobre o APP"
+        android:layout_margin="15dp"/>
+
+
+#TEXTO A RESPEITO DA UTILIZAÇÃO DO APP
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:textColor="@color/colorDarkCyan"
+        android:text= "Ajude-me é um aplicativo de segurança com foco em pessoas que tem como trajeto lugares perigosos e/ou que costumam andar sozinhos.
+O aplicativo em conjunto com o botão de emergência pode ser utilizado por possiveis vitimas de crimes como  assaltos e violência sexual.
+" android:layout_margin="15dp"/>
+
+
+#PORQUE UMA NARVAL
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:textColor="@color/colorDarkCyan"
+        android:text= "Porque uma Narval"
+        android:layout_margin="15dp"/>
+
+
+#TEXTO DO MASCOTE
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:textColor="@color/colorDarkCyan"
+        android:text= "Nosso mascote foi escolhido pois as baleias se comunicam com familiares/amigos e conseguem até mesmo localizar eles através de códigos sonoros, assim como o Ajude-me te comunica com amigos e familiares em caso de perigo"
+        android:layout_margin="2dp"/>
+
+
+
+#SOBRE NÓS
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:textColor="@color/colorDarkCyan"
+        android:text= "Sobre Nós"
+        android:layout_margin="15dp"/>
+
+
+    #TEXTO SOBRE NÓS
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:textColor="@color/colorDarkCyan"
+        android:text= "Somos participantes do evento Monitora Summer Segunda Edição"
+        android:layout_margin="15dp"/>
+
+
+    #NOMES
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:textColor="@color/colorDarkCyan"
+        android:text= "Alisson"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:textColor="@color/colorDarkCyan"
+        android:text= "Jessica"
+        android:layout_margin="2dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:textColor="@color/colorDarkCyan"
+        android:text= "Linkon"
+        android:layout_margin="2dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:textColor="@color/colorDarkCyan"
+        android:text= "Thon"
+        android:layout_margin="2dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:textColor="@color/colorDarkCyan"
+        android:text= "Welliton"
+        android:layout_margin="2dp"/>
+
+
+
+</LinearLayout>
+
+
+
+
+
+</ScrollView>
