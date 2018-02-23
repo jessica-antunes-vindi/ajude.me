@@ -38,11 +38,11 @@ public class CadUsuarioActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         mDatabase = FirebaseDatabase.getInstance().getReference();
 
-        txtNome = findViewById(R.id.edtNome);
-        txtTelefone = findViewById(R.id.edtTelefone);
-        txtEmail = findViewById(R.id.edtEmail);
-        txtSenha = findViewById(R.id.edtSenha);
-        btnCadastrar = findViewById(R.id.btnCadastrar);
+        txtNome = (EditText) findViewById(R.id.edtNome);
+        txtTelefone = (EditText) findViewById(R.id.edtTelefone);
+        txtEmail = (EditText) findViewById(R.id.edtEmail);
+        txtSenha = (EditText) findViewById(R.id.edtSenha);
+        btnCadastrar = (ButtonRectangle) findViewById(R.id.btnCadastrar);
 
     }
 

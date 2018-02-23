@@ -1,9 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="summer.ajudeme.MainActivity">
+    android:background="@color/colorLightGrayishCyan"
+    >
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:id="@+id/loginForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/jessica"
+            app:civ_border_width="3dp"
+            app:civ_border_color="@color/colorDarkCyan"
+            android:layout_margin="16dp"/>
+
+        <TextView
+            android:id="@+id/lblUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="ClickCadastro"
+            android:textSize="25dp"
+            android:textColor="@color/colorVividCyan"
+            android:text= "Jéssica Antunes"
+            android:layout_margin="16dp"/>
+
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/btnAlerta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorVividCyan"
+            android:onClick="ClickAlerta"
+            android:text="Alerta" />
+
+        <TextView
+            android:id="@+id/lblOcorrencia"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="ClickCadastro"
+            android:textSize="15dp"
+            android:textColor="@color/colorVividRed"
+            android:text= "Ultimas ocorrencias"
+            android:layout_margin="16dp"/>
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/btnUm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorVividRed"
+            android:text="Welliton" />
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/btnDois"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorVividCyan"
+            android:text="Thon" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

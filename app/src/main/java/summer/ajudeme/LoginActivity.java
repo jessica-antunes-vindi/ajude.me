@@ -35,12 +35,11 @@ public class LoginActivity extends AppCompatActivity {
         //Inicia o Autenticador
         mAuth = FirebaseAuth.getInstance();
 
-        txtEmail = findViewById(R.id.edtEmail);
-        txtSenha = findViewById(R.id.edtSenha);
-        btnLogin = findViewById(R.id.btnLogin);
-        lblCad = findViewById(R.id.lblCadastrese);
+        txtEmail = (EditText) findViewById(R.id.edtEmail);
+        txtSenha = (EditText) findViewById(R.id.edtSenha);
+        btnLogin = (ButtonRectangle) findViewById(R.id.btnLogin);
+        lblCad = (TextView) findViewById(R.id.lblCadastrese);
         lblCad.setText(Html.fromHtml("<u>Cadastre-se</u>"));
-
 
     }
 
@@ -91,7 +90,8 @@ public class LoginActivity extends AppCompatActivity {
                                 //Mudar mensagem
                                 Toast.makeText(LoginActivity.this, "Autenticação funcionou!!",
                                         Toast.LENGTH_SHORT).show();
-                                //Todo Vai para a tela principal
+                                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                                startActivity(intent);
                             } else {
                                 Log.w(TAG, "signInWithEmail:failure", task.getException());
                                 Toast.makeText(LoginActivity.this, "Email e Senha invalidos!!",

@@ -7,4 +7,6 @@
     <color name="colorVividCyan">#19B5E6</color>
     <color name="colorDarkCyan">#138BB1</color>
     <color name="colorLightGrayishCyan">#EBECEC</color>
+    <color name="actionbar_color">#bf360c</color>
+    <color name="drawer_arrow_second_color">#303f9f</color>
 </resources>
